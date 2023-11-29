@@ -1,0 +1,19 @@
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui ! NoSQL adalah sebuah pendekatan dalam manajemen basis data yang tidak mengikuti model relasional tradisional. 
+NoSQL sering digunakan untuk data semi-structured atau unstructured, dan memberikan kemampuan horizontal scaling yang baik.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System ! 
+NoSQL: Ideal digunakan ketika datamu sangat besar, data bersifat semi-structured atau unstructured, memerlukan skalabilitas horizontal yang tinggi, dan kecepatan akses yang cepat.
+RDBMS: Cocok untuk kasus-kasus yang membutuhkan integritas data yang tinggi, transaksi kompleks, dan struktur data yang terdefinisi dengan jelas (structured data).
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+MongoDB: Database NoSQL yang menggunakan format dokumen JSON untuk menyimpan data. Keunggulannya termasuk fleksibilitas schema, scaling horizontal, dan kemampuan query yang kuat.
+Cassandra: Database NoSQL yang dirancang untuk menangani data besar dalam skala yang besar. Cassandra dirancang untuk menawarkan performa yang tinggi, toleransi kesalahan, dan skema data yang terdistribusi.
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri ! Airflow adalah platform open-source untuk mengelola, menjadwalkan, 
+dan mengontrol alur kerja (workflows). Airflow memungkinkan pengguna untuk mendefinisikan alur kerja (workflow) mereka sebagai code yang dapat dijalankan, memudahkan otomatisasi, pemantauan, dan manajemen alur kerja data yang kompleks.
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri ! Great Expectations adalah sebuah framework open-source yang digunakan untuk mengelola dan melakukan validasi terhadap data. 
+Ini memungkinkan definisi ekspektasi atau harapan terhadap data, seperti validasi struktur, jenis, atau nilai-nilai tertentu dalam data. Great Expectations membantu memastikan kualitas data dan integritasnya dalam pipeline data.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) ! Batch Processing adalah proses pemrosesan data di mana data yang dikumpulkan akan 
+diproses dalam batch (kelompok) tertentu pada waktu tertentu. Ini melibatkan pengumpulan, pemrosesan, dan output data dalam kelompok besar atau batch, yang dapat digunakan untuk berbagai tugas seperti analisis, pemrosesan transaksi besar, dan pembuatan laporan. Contohnya adalah pengolahan data transaksi per hari dalam e-commerce atau analisis data harian dalam sebuah organisasi. Tools yang digunakan bisa beragam, seperti Apache Hadoop, Apache Spark, dan platform cloud seperti AWS Batch atau Google Cloud Dataflow.
